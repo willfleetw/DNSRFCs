@@ -3,9 +3,6 @@
 
 >**TODO**
 >
->* Update to include DNSSEC
->* Update resolver and name server algs to take into account DNSSEC
->* Update section references
 >* Update resource records section of document (missing RRs)
 >* Fillout Glossary with terms and references to document and RFCs
 >* Update RCODE section to include extended values, and clearer description of extened RCODE meaning form EDNS
@@ -45,7 +42,7 @@ The following RFCs are only relevent to DNS management operations, or are better
 * [RFC-921](https://www.ietf.org/rfc/rfc921.txt)
 * [RFC-1032](https://www.ietf.org/rfc/rfc1032.txt)
 
-This document and its source, as well as a DNS library written in Rust which uses this documentation as a source of truth, is hosted on [https://github.com/willfleetw/rusty_dns](https://github.com/willfleetw/rusty_dns).
+This document and its source, as well as a DNS library written in Rust which uses this documentation as a source of truth, is hosted on [https://github.com/willfleetw/DNSRFCs](https://github.com/willfleetw/DNSRFCs).
 
 A useful link for quickly looking up a given DNS related value or definition is: [Domain Name System (DNS) Parameters](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml)
 
